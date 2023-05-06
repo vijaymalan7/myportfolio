@@ -10,5 +10,5 @@ $headers ="From: vijaymalan7.github.io/myportfolio/";
 if($email !=NULL){
     mail($to,$subject,$txt,$headers);
 }
-header("thankyou.html");
+header("Location: thankyou.html");
 ?>
