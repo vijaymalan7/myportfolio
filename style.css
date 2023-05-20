@@ -20,7 +20,8 @@ html{
 header{
     background-color:#e7e7de;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 87%, 0 90%);
-
+    padding:40px;
+    margin:0 auto;
 }
 .container2{
     max-width: 1152px;
@@ -119,7 +120,8 @@ header nav .brand .logo{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 80%);
 }
 .about .about-me{
-    height: 600px;
+    height: 500px;
+    widh:auto;
 }
 .about h1 {
     margin-bottom: 1rem;
