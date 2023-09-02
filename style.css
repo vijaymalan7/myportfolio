@@ -1,10 +1,10 @@
 @import"utitilities.css";
 :root{
-    --primary:#3DCFD3;
+    --primary:#15bfc5;
     --dark:#161616;
-    --ternary:#898989;
-    --pure:#FFFFFF;
-    --light:#f2f2f2;
+    --ternary:##898989;
+    --pure:#ffffff;
+    --light:#d3aaaa;
     --secondary:#070606 ;
 }
 html{
@@ -21,7 +21,7 @@ header{
     background-color:#e7e7de;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 87%, 0 90%);
     padding:40px;
-    margin:0 auto;
+    
 }
 .container2{
     max-width: 1152px;
@@ -106,6 +106,7 @@ header nav .brand .logo{
 .hero .right p{
     line-height: 1.9;
     margin-bottom: 2rem;
+    
 
 }
 .hero .right{
@@ -116,12 +117,14 @@ header nav .brand .logo{
 }
 .about{
     padding: 6rem 0;
-    background-color:#cdfffc;
+    width: auto;
+    background-color:#caa583;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 80%);
 }
 .about .about-me{
     height: 500px;
-    widh:auto;
+    width:auto;
+   
 }
 .about h1 {
     margin-bottom: 1rem;
@@ -445,4 +448,5 @@ footer p{
     section.contact .input-warp{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1rem;
+}
 }
