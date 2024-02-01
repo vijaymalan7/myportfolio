@@ -244,17 +244,18 @@
                         </div>
     
                 </div>
-                <form action="mail.php" method="post">
+                <form action="https://api.web3forms.com/submit" method="POST">
                     <div class="input-warp">
+                        <input type="hidden" name="access_key" value="fe31b3b4-954c-49a1-884f-8e78bbe84645">
                         <input type="text" name="name" placeholder="Enter Your Name">
                         <input type="email" name="email" placeholder="Enter Your E-mail">
                     </div>
                     <div class="input-warp2">
-                        <input type="text" name="subject" placeholder="Your subject">
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="You massage"></textarea>
+                        <!-- <input type="text" name="subject" placeholder="Your subject"> -->
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your massage"></textarea>
                     </div>
                     <div class="btn-warper">
-                        <button class="btn btn-primary">Send massage</button>
+                        <button type="submit" class="btn btn-primary">Send massage</button>
                     </div>
                 </form>
             </div>
